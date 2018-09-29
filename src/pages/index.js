@@ -1,7 +1,8 @@
 import React from "react"
-
+import { Link } from "gatsby"
 export default () => (
   <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
+  <Link to="/about-css-modules/">About CSS Modules</Link>
     <h1>Richard Hamming on Luck</h1>
     <div>
       <p>
